@@ -160,13 +160,13 @@ div{
 
 @media screen and (max-width: 980px ) and (min-width: 769px){
 	.headercontainer{
-		background-color: red;
+		/*background-color: red;*/
 	}
 }
 
 @media screen and (max-width: 768px ) and (min-width: 641px){
 	.headercontainer{
-		background-color: green;
+		/*background-color: green;*/
 	}
 
 	#leftSection{
@@ -186,11 +186,19 @@ div{
 @media screen and (max-width: 640px ) and (min-width: 0px){
 	.headercontainer{
 		position:static;
-		background-color: pink;
+		/*background-color: pink;*/
+	}
+
+	.logolink{
+		clear:both;
 	}
 	
 	nav {
-
+		position: relative;
+		right: 10%;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		clear:left;
 	}
 
 	#leftSection{
